@@ -20,7 +20,7 @@ Secondary Color (Orange): #e0b354;
    --dark-grey: #2b2b2b;
 
    /*Text portion*/
-
+   --font-family: 'Merriweather', sans-serif;
    --text-size-large:       20px;
    --text-size-normal:    14px;
    --text-size-button:      16px;
@@ -40,7 +40,7 @@ Secondary Color (Orange): #e0b354;
 
  body {
    background-color: var(--primary-bg-color);
-   font-family: 'Lato', sans-serif;
+   font-family: var(font-family);
    font-weight: 400;
    font-size: var(--text-size-normal);
    line-height: 1.8;
