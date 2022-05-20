@@ -113,20 +113,14 @@ Secondary Color (Orange): #e0b354;
    flex: 0 1 200px;
  }
 
- .page-header__logo{
-     width: 50px;
-     height: 30px;
- }
+
 
 
  .page-header__item:last-child{
      flex-grow: 1;
      text-align: right;
  }
- .page-header__logo{
-     width: 50px;
-     height: 30px;
- }
+
 
  .sample_button{
      clear: both;
@@ -375,7 +369,7 @@ Secondary Color (Orange): #e0b354;
 
 
  @media all and (min-width: 300px) and (max-width: 500px) {
-     .page-header__logo{
+     #page-header__logo{
          width: 100px;
          height: 100px;
      }
