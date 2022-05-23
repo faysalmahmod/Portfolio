@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
     <title>Faisal Mahmood's Contact details</title>
-    <link rel="shortcut icon" href="img/favicon-32x32.PNG" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
@@ -14,11 +14,11 @@
 
   <body>
     <header class="page-header">
-    <img src="img/FM_logo.PNG" class="page-header__item" class="page-header__logo" alt="This is the personal logo of Faisal Mahmood">
-    <nav class="page-header__item" class="main-navigation">
+    <img src="img/FM_logo.png" class="page-header__item" alt="This is the personal logo of Faisal Mahmood">
+    <nav class="page-header__item">
          <ul role="menubar" class="navigation-list">
              <li role="presentation">
-                 <a href="index.html" target="blank" role="menuitem" class="navigation-list__item" class="navigation-list__item---active">Home</a>
+                 <a href="index.html" target="blank" role="menuitem" class="navigation-list__item">Home</a>
              </li>
              <li role="presentation" >
                  <a href="about.html" target="blank" role="menuitem" class="navigation-list__item">About me</a>
@@ -42,14 +42,14 @@
       </div>
     </div>
     <form action="#" method="post" id="contact-form">
-      			<label for="user email" class="standard-label">E-mail*:</label>
-      			<input id="user email" type="email" required>
+      			<label for="user_email" class="standard-label">E-mail*:  </label>
+      			<input id="user_email" type="email" required><br>
 
-      			<label for="user tel" class="standard-label">Tel:</label>
-      			<input id="user tel" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+      			<label for="user_tel" class="standard-label">Telephone:</label>
+      			<input id="user_tel" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
 
-      			<label for="user message" class="standard-label">Message* (max 240 char):</lable>
-      			<textarea id="user message" maxlength="240" required></textarea>
+      			<label for="user_message" class="standard-label">Message* (max 240 char):</label>
+      			<textarea id="user_message" maxlength="240" required></textarea>
 
       			<input type="submit" value="Send">
     	</form>
