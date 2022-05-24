@@ -11,7 +11,7 @@ Secondary Color (Orange): #e0b354;
 :root {
    --primary-bg-color: #778899;
    --primary-link-color: #FFFFFF;
-   --visited-link-color: #05676e;
+   --visited-link-color: #F2EFEF;
    --active-link-color:  #489c79;
    --footer-bg-color: #DCDCDC;
    --work-section-bg-color: #FFFFFF;
@@ -45,6 +45,8 @@ Secondary Color (Orange): #e0b354;
    font-size: var(--text-size-normal);
    line-height: 1.8;
    box-sizing: var(--box-sizing);
+   position: relative;
+   min-height: 100%;
  }
 
  *{
@@ -96,6 +98,7 @@ Secondary Color (Orange): #e0b354;
 
  .navigation-list__item---active{
      text-decoration: none;
+     text-decoration-color: white;
  }
  .navigation-list{
      list-style-type: none;
@@ -129,16 +132,45 @@ Secondary Color (Orange): #e0b354;
 
 
 
- .page-footer{
+ .page-footer-about{
      background-color: var(--footer-bg-color);
      clear: both;
      display: flex;
      flex-direction: column;
      text-align: center;
      padding: 30px 0 100px 0;
+
  }
+ .page-footer{
+     background-color: var(--footer-bg-color);
+     position: fixed;
+     height: 20vh;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     color: white;
+     text-align: center;
+ }
+.contact-heading{
+  text-align: center;
+    padding-top: 20px;
+}
+.form-Contact{
+  height: 50vh;
+  font-family: 'Balsamiq Sans', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+  text-align: center;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.button-submit{
+  display: flex;
+  margin-left: 40%;
+  align-items: center;
 
-
+}
  .page-footer__socialMedia{
      /*border: 2px solid #049766;*/
      display: flex;
